@@ -1,0 +1,336 @@
+.container {
+    max-width: 1328px;
+    margin: 0 auto;
+  }
+  header {
+    background: #4a2b33;
+    padding-bottom: 36px;
+  }
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0px;
+
+
+}
+
+.header_menu_text{
+    display: flex;
+    gap: 20px;
+}
+
+
+.header_menu_text > li > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #d27487;
+    text-decoration: none;
+}
+
+.header_menu_icons{
+    display: flex;
+    gap: 16px;
+}
+
+
+.about{
+    padding: 245px 0px 244px 0px;
+}
+
+.about_wrapper{
+    text-align: center;
+    max-width: 869px;
+    margin: 0 auto;
+}
+
+.about_wrapper_title{
+margin-bottom: 3px;
+font-family: 'Azeret Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+
+color: #222222;
+
+
+}
+
+
+.about_wrapper_text{
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 45px;
+text-align: center;
+
+color: #222222;
+
+
+}
+
+
+.food{
+    background-color: #E9E9E3;
+    
+}
+
+.food_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 20px;
+
+}
+
+.food_wrapper_content{
+    min-width: 530px;
+}
+
+.food_title{
+
+font-family: 'Azeret Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 17px;
+
+
+color: #6F6F64;
+
+
+}
+
+.food_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 45px;
+max-width: 470px;
+margin-bottom: 63px;
+
+
+
+color: #6F6F64;
+
+
+}
+
+.food_wrapper-btn{
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .food_wrapper-btn > button {
+    padding: 17px 0px;
+      display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #6f6f64;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #6F6F64;
+    transition: 0.5s all;
+  }
+  .food_wrapper-btn > button:hover{
+      background: #6F6F64;
+      color: #FFFFFF;
+
+
+}
+
+.info{
+    background-color: #AA9E54;
+    color: #FFFFFF;
+    
+}
+
+.info_wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+h3{
+
+
+font-family: 'Azeret Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+
+text-align: center;
+
+padding-bottom: 15px;
+
+
+
+
+}
+
+
+.info_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+
+text-align: center;
+
+max-width: 352px;
+margin: 0 auto;
+
+}
+
+.hours_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours_content, .location_content, .mondays_content{
+    width: 33.33%;
+}
+
+.margin{
+    margin-top: 35px;
+}
+
+.gallery{
+    padding: 120px 20px;
+}
+
+.gallery_wrapper{
+    display: flex;
+    gap: 40px;
+    
+
+}
+
+.left_gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.award{
+    background-color: #4A2B33;
+    padding: 120px 20px;
+   
+}
+
+.award_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.award_text{
+    max-width: 595px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #D27487;
+
+
+}
+
+.award_title{
+    max-width: 380px;
+    
+
+font-family: 'Azeret Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 62px;
+
+letter-spacing: 1px;
+
+color: #D27487;
+
+
+}
+
+footer{
+    padding: 72px 0px 75px 0px;
+}
+
+.footer_wrapper{
+ text-align: center;
+ max-width: 650px;
+ margin: 0 auto;
+}
+
+.footer_info{
+    display: flex;
+    gap: 32px;
+    padding-bottom: 16px;
+   
+    
+}
+
+.footer_founder{
+    display: flex;
+    gap: 16px;
+   
+   
+}
+
+.footer_info > li > a{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+text-decoration: none;
+
+color: #1F1F1F;
+
+
+}
+
+.footer_founder > li > a{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+text-decoration: none;
+text-align: center;
+
+color: #696969;
+
+
+
+}
